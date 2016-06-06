@@ -1,0 +1,17 @@
+/*header.css*/
+
+
+/*------------------------------header---------------------------------*/
+#header{width: 100%; height: 56px; padding-top: 14px; background-color: #85c5bd; margin: 0 auto; z-index: 500; position: fixed;}
+    #head{width: 960px; height: 42px; margin: 0 auto; }
+        #head_logo{width: 38px; height: 42px; float: left;}
+            #head_logo>a{width: 100%; height: 100%; background-image: url(../img/logo/white.png); background-repeat: no-repeat; background-position: center;  background-size: 100%;  display: block;}
+
+        #gnb{width: 480px; height: 15px; float: right; margin-top: 13px;}
+            #gnb>li{height: 100%; background-repeat: no-repeat; background-position: center; float: left; margin-right: 38px;}
+                #gnb>li>a{width: 100%; height: 100%; display: block; margin: 0 auto; }
+                    #gnb>li>a>span{overflow: hidden;}
+                        .home{width: 58px; height: 15px; background-image: url(../img/gnb/gnb_home.png); float:left; }
+                        .about{width: 68px; height: 15px; background-image: url(../img/gnb/gnb_about.png); float:left;}
+                        .portfolio{width: 110px; height: 15px; background-image: url(../img/gnb/gnb_portfolio.png); float:left; }
+                        .contact{width: 91px;height: 15px; background-image: url(../img/gnb/gnb_contact.png); float: right; margin-right: 0;}

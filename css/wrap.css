@@ -1,0 +1,26 @@
+/*wrap.css*/
+
+
+@font-face {
+    font-family: 'pangramregular';
+    src: url('../font/pangram-regular-webfont.eot');
+    src: url('../font/pangram-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/pangram-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'notoRegular';
+    src : url('../font/NotoSansCJKkr-Regular.otf.eot');
+    src : url('../font/NotoSansCJKkr-Regular.otf.eot') format('eot') format('eot');
+    src : url('../font/NotoSansCJKkr-Regular.woff') format('woff');
+    src : url('※'), url('../font/NotoSansCJKkr-Regular.oft') format('opentype');
+}
+
+
+/*---------------------------#wrap---------------------------------------------*/
+#wrap{width:100%; margin: 0 auto; background-color: #fff; }
+#wrap>*{margin:0 auto; }
+*{font-family: 'pangramregular', 'Noto Sans KR'; }
+html, body, h1, h2, h3, h4, h5, h6, li, p{font-family: 'pangramregular', 'Noto Sans KR'; }

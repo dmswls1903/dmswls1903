@@ -1,0 +1,145 @@
+/*section.css*/
+
+
+/*------------------------------section---------------------------------*/
+#section{width: 100%; height: auto; margin: 0 auto; }
+
+
+
+/*------------------------------banner---------------------------------*/
+#banner{width: 100%; height: 960px; padding-top: 70px; background-image: url(../img/banner.png); 
+                background-size: cover; background-attachment: fixed; background-repeat: no-repeat; 
+                background-position: center;}
+#banner_logo{width: 500px; height: 130px; margin: 350px auto 0;}
+        #banner_logo>img{margin-left: auto; margin-right: auto; display: block; }
+            #banner_text{color: #fff; text-align: center; margin-top: 100px;}
+                .p_01{font-size: 1rem; letter-spacing: 8px; }
+                    .p_01>span{letter-spacing: 0; }
+                .p_02{margin-top: 30px; font-size: 30px; letter-spacing: 22px;}
+                    .p_02>span{letter-spacing: 0; }
+
+
+
+/*------------------------------about---------------------------------*/
+#about{width: 100%; height:1500px; margin: 0 auto;}
+    .top{width: 94px; height: 92px; margin: 0 auto; padding-top: 48px;}
+        #a_top_img{width: 40px; height: 44px; margin: 0 auto; 
+                                background-image: url(../img/logo/sky.png); background-size: 100%;}
+        #a_top_name{width: 58px; height: 18px; margin: 0 auto; color: #4a4a4a; 
+                                    font-size: 18px; margin-top: 10px; font-weight: bold; text-align: center;}
+        
+        /*-------------------------about_list-------------------------*/
+        #about_list{width: 960px; height: 1260px; margin: 0 auto; margin-top: 100px; }
+            #about_list>ul>li{float: left; font-size: 14px; color: #4a4a4a; padding-left: 30px; margin-bottom: 50px;}
+                .about_title{width: 96px; height: 16px; color: #4a4a4a; font-size: 16px; font-weight: bold; margin-bottom: 36px;}
+        
+            #about_01{width: 450px; height: 400px; float: left;}
+                    #pic{width: 110px; height: 110px; margin-right: 26px; background-image: url(../img/cej.jpg); background-size: 100%; float: left;}
+                    #ab_con{margin-top: 70px;}
+
+            #about_02{width: 450px; height: 400px; }
+                #about_02>div{width: 15px; height: 306px; margin-right: 50px; background-image: url(../img/arrow.png); float: left;}
+                    #about_02 li{padding-top: 40px;}
+
+            #about_03{width: 450px; height: 400px; }
+                #about_03 li{float: left;}
+                    #about_03 p{margin-bottom: 22px; margin-right: 50px;}
+                    #about_03 div{margin-bottom: 22px; }
+                    #graph_01{width: 209px; height: 16px; background-image: url(../img/skill/illust.png); }
+                    #graph_02{width: 209px; height: 16px; background-image: url(../img/skill/java.png); }
+                    #graph_03{width: 209px; height: 16px; background-image: url(../img/skill/html.png); }
+                    #graph_04{width: 209px; height: 16px; background-image: url(../img/skill/illust.png); }
+                    #graph_05{width: 209px; height: 16px; background-image: url(../img/skill/indesign.png); }
+                    #graph_06{width: 209px; height: 16px; background-image: url(../img/skill/illust.png); }
+                    #graph_07{width: 209px; height: 16px; background-image: url(../img/skill/html.png); }
+                    #graph_08{width: 209px; height: 16px; background-image: url(../img/skill/excel.png); }
+
+            #about_04{width: 450px; height: 400px; }
+                #about_04 li{margin-bottom: 22px; float: left;}
+                    #about_04 div{width: 38px; height: 49px; background-image: url(../img/award_icon.png); margin-bottom: 30px; margin-right: 30px;}
+                    #about_04 p{margin-bottom: 28px;}
+
+            #about_05{width: 450px; height: 400px; }
+                #about_05 li{float: left; margin-right: 40px; text-align: center; line-height: 34px;}
+
+            #about_06{width: 450px; height: 400px; }
+                #about_06 div{width: 371px; height: 222px; background-image: url(../img/interesse.png);}
+        
+
+
+/*------------------------------portfolio---------------------------------*/
+#portfolio{width: 960px; height: 960px; margin: 0 auto; }
+        #p_top_img{width: 40px; height: 44px; margin: 0 auto; 
+                                background-image: url(../img/logo/sky.png); background-size: 100%;}
+        #p_top_name{width: 92px; height: 18px; margin: 0 auto; color: #4a4a4a; 
+                                    font-size: 18px;  margin-top: 10px; font-weight: bold;}
+
+        /*--------------------------------------------gallery--------------------------------------------*/
+        .gallery{width: 100%; height: 700px;  margin: 40px auto 0; position: relative; overflow: hidden;}
+            #port_list{width: 960px; height: 768px; margin: 50px 0 80px 0; float: left; }
+                #port_list>li{width:320px; height:320px; float: left; background-repeat: no-repeat; background-position: center;}
+                    #port_list>li>a{width:320px; height:320px; float: left;}
+                        #port_list figure {position: relative; width: 320px; height: 320px; 
+                                                            box-shadow: inset 0 -40px 0 0 rgba(0, 0, 0, .3); 
+                                                            transition: all .2s ease-in-out; opacity: 0;}
+                        /*호버시 검은 박스 크기*/
+                        #port_list figure:hover {box-shadow: inset 0 -320px 0 0 rgba(0, 0, 0, .5); display: block; opacity: 1;}
+                        /*텍스트*/
+                        #port_list figcaption {position: absolute; width: 100%; font-weight: 300; text-align: center; 
+                                                                    color: #f4f4f4; text-shadow: 0 0 3px #000; bottom: 10px; transition: all .2s ease-in-out;}
+                        /*호버시 텍스트 위치*/
+                        #port_list figure:hover figcaption {bottom: 150px;}
+                            .port_01{background-size: cover; background-image: url(../img/portfolio/pt_01.png); } 
+                            .port_02{background-size: cover; background-image: url(../img/portfolio/pt_02.png); } 
+                            .port_03{background-size: cover; background-image: url(../img/portfolio/pt_03.png); } 
+                            .port_04{background-size: cover; background-image: url(../img/portfolio/pt_04.jpg); } 
+                            .port_05{background-size: cover; background-image: url(../img/portfolio/pt_05.jpg); } 
+                            .port_06{background-size: cover; background-image: url(../img/portfolio/pt_06.jpg); } 
+
+
+
+/*------------------------------contact---------------------------------*/
+#contact{width: 100%; height: 960px; margin: 0 auto; background-image: url(../img/contact.jpg);
+                    background-size: cover; background-attachment: fixed; background-repeat: no-repeat; 
+                    background-position: center;}
+        #c_top_img{width: 40px; height: 44px; margin: 0 auto; 
+                                background-image: url(../img/logo/white.png); background-size: 100%;}
+        #c_top_name{width: 78px; height: 18px; margin: 0 auto; color: #fff; font-size: 18px;  margin-top: 10px; font-weight: bold;}
+
+            /*-----------------------------------------form -------------------------------------------*/
+            .form {width: 600px; margin: 0 auto; margin-top: 100px; margin-bottom: 40px; border-radius: 3px;}
+                .form>h2 {width: 600px; height: 150px; margin: 0 auto; font-size: 16px; 
+                                    color: #fff; text-align: center; line-height: 26px;}
+                    .form-control {height: 48px; background-color: rgba(0,0,0,0); padding: 6px; border: 2px solid #fff; font-size: 16px;  line-height: 20px; }
+
+                    .btn-primary {width: 170px; height: 50px; margin: auto; margin-top: 30px; background-color: #fff; font-size: 17px; color: #85c5bd; line-height: 50px; display: inherit; transition: all 0.5s;}
+                        .btn-primary:hover {background-color: #85c5bd; color: #fff; }
+
+                        input, textarea {width: 100%; margin-top: 20px; outline:none; box-sizing:border-box;
+                                                        overflow: auto; /* removes default scrolling bars in IE */ 
+                                                        resize: none; /* removes the resize handle */ transition: all 800ms; }
+
+                    /*-----------------------------------------input -------------------------------------------*/
+                        .form input::-webkit-input-placeholder{color:#fff;}/*선택 전 글씨 색상*/
+                        .form input::-moz-input-placeholder{color:#fff;}
+                        .form input::-ms-input-placeholder{color:#fff;}
+                        .form input::-o-input-placeholder{color:#fff;}
+                        .form input::input-placeholder{color:#fff;}
+                        input:focus {color: #faf; }/*선택 시 글씨 색상*/
+                        .form input{color:#4a4a4a;}/*입력 후 글씨 색상*/
+
+                    /*--------------------------------------textarea----------------------------------------------*/
+                        .form textarea::-webkit-input-placeholder{color:#fff;}/*선택 전 글씨 색상*/
+                        .form textarea::-moz-input-placeholder{color:#fff;}
+                        .form textarea::-ms-input-placeholder{color:#fff;}
+                        .form textarea::-o-input-placeholder{color:#fff;}
+                        .form textarea::input-placeholder{color:#fff;}
+                        textarea:focus {color: #fff; }/*message 선택시 글씨 색상*/
+                        .form textarea{color:#4a4a4a;}/*입력 후 글씨 색상*/
+
+                        textarea.form-control { height: 120px; transition: .5s; }/*선택전 높이*/
+                        textarea.form-control:focus {height: 180px; }/*선택 시 높이*/
+
+
+
+
