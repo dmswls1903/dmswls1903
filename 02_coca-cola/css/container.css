@@ -1,0 +1,138 @@
+/*section.css*/
+
+
+/*-------------------------------------------section-------------------------------------------*/
+#container{width: 960px; height: 1012px; padding-top: 126px;}
+
+
+
+
+/*--------------------------#banner-----------------------------------*/
+    #banner{width: 722px; height: 402px; float:left; box-sizing: border-box; position: relative; overflow:hidden;
+        background-image: url(../img/banner/banner_01.png);}
+        #banner>.btn{position: absolute; width: 30px; height: 100%; /*background-color: rgba(#fff, 0.4);*/ top: 0; z-index: 400; transition: all 0.5s;}
+            #banner>.btn.left_btn{left:0}
+            #banner>.btn.right_btn{right:0}
+/*            #banner>.btn:hover{background-color:rgba(255,255,255,0.8)}*/
+            #banner>.btn button{width:100%;height:100%;background-color:transparent}
+            #banner>.btn:hover i{transform:scale(1.5)}
+            #banner>.btn i{font-size:1.5em; color:#55565a; transition:all 0.5s}
+            #banner>.btn span{width:0;height:0;display:block;overflow:hidden}
+
+        #banner>.banner_box{width:300%;height:100%;margin-left:-100%;overflow:hidden}
+            #banner>.banner_box>li{width:calc(100% / 3);height:100%;float:left;line-height:500px;text-align:center}
+                #banner>.banner_box>.banner_01{background-image: url(../img/banner/banner_01.png);}
+                #banner>.banner_box>.banner_02{background-image: url(../img/banner/banner_02.png);}
+                #banner>.banner_box>.banner_03{background-image: url(../img/banner/banner_03.png);}
+                #banner>.banner_box>.banner_04{background-image: url(../img/banner/banner_04.png);}
+                #banner>.banner_box>.banner_05{background-image: url(../img/banner/banner_05.png);}
+
+ 
+
+
+
+/*--------------------------#cokezone-----------------------------------*/
+    #cokezine{width: 238px; height: 202px; float:left; border-bottom: 1px solid #9fa1a1;}
+        #cokezine>a{width: 90px; height: 138px; background-image: url(../img/coke_zine.png); display: block; margin: 35px 70px;}
+
+
+
+
+/*--------------------------#event-----------------------------------*/
+    #event{width: 238px; height: 200px; float:left;}
+        .event_01{width: 119px; height: 100px; float:left; }
+            .event_01>a{width: 50px; height: 12px; background-image: url(../img/con_event.png); display: block; margin: 43.5px 35px; cursor: default;}
+        .event_02{width: 119px; height: 100px; float:left; text-align: center; }
+            .event_02>a>p{margin-top: 42px; font-size: 12px; overflow: hidden; text-overflow: ellipsis;}
+        .event_03{width: 119px; height: 100px; float:left; text-align: center; line-height: 100px; }
+            .event_03>a>p{margin-top: 42px; font-size: 12px; overflow: hidden; text-overflow: ellipsis;}
+        .event_04{width: 119px; height: 100px; float:left; text-align: center; line-height: 100px; }
+            .event_04>a>p{margin-top: 42px; font-size: 12px; overflow: hidden; text-overflow: ellipsis;}
+
+
+
+
+/*--------------------------#ntc-----------------------------------*/
+    #ntc{width: 290px; height: 342px; float:left;}
+        #ntc_head{width: 258px; height: 13px; margin-left: 16px; margin-top: 34px; margin-bottom: 45px; float: left;}
+                .ntc_a{width: 58px; height: 12px; background-image: url(../img/con_notice.png); display: block; float: left; cursor: default;}        
+                .ntc_plus{width: 13px; height: 13px; display: block; background-image: url(../img/ntc_pius.png); float: right;}
+
+        #ntc_01{margin-left: 16px;}    
+            #ntc_01>h3{width: 258px; height: 14px; font-size: 13px; color: #55565a; font-weight: bold;}
+            #ntc_01>p{font-size: 12px; color: #9fa1a1; margin-top: 14px; margin-right: 16px;}           
+            .day_01{margin-top: 16px;}
+
+        #ntc_02{margin-top: 38px; margin-left: 16px;}
+            #ntc_02>h3{width: 258px; height: 14px; font-size: 13px; color: #55565a; font-weight: bold;}
+            #ntc_02>p{font-size: 12px; color: #9fa1a1; margin-top: 14px; margin-right: 16px;}
+            .day_02{margin-top: 16px;}
+
+
+
+
+/*--------------------------#video-----------------------------------*/
+    #video{width: 432px; height: 342px; float:left;}
+        #video>h2{width: 48px; height: 12px; margin: 34px 0 0 16px;}
+            .video_a{width: 48px; height: 12px; background-image: url(../img/con_video.png); display: block; cursor:default;}
+            #video>iframe{width:400px; height:234px; margin: 45px 0 0 16px;}
+
+
+
+
+/*--------------------------#brand-----------------------------------*/
+    #brand{width: 238px; height: 342px; float:left;}
+        #brand>a{width: 146px; height: 233px; background-image: url(../img/con_brand.png); display: block; margin: 40px 52px;}
+
+
+
+
+/*--------------------------#coca_brands-----------------------------------*/
+    #coca_brands{width: 960px; height: 144px; float:left; margin:40px 0 80px 0; position: relative; }
+        #coca_brands>h2{width: 147px; height: 13px; margin: 0 auto; margin-bottom: 36px;}
+            .coca_brands_a{width: 147px; height: 13px; display: block; background-image: url(../img/con_Coca-Cola_Brands.png);}
+        #coca_brands>ul{width: 960px; height: 96px;  margin-bottom: 80px;float: left;}
+            #coca_brands>ul>li{width: 96px; height: 100%;  float: left; }
+            #coca_brands>ul>li>a{width: 96px; height: 96px; display: block; float: left; background-repeat: no-repeat; background-size: 100%;}
+            #coca_brands>ul>li>span{width: 0; height: 0; font-size: 0;}
+        
+
+        .btn_brs{position: absolute; width: 30px; height: 96px;  margin-top: 48px; background-color: rgba(#fff, 0.4); top: 0; z-index: 400; transition: all 0.5s;}
+                    .btn_brs.left_btn_brs{left:0}
+                    .btn_brs.right_btn_brs{right:0}
+/*                    #coca_brands>ul>.btn:hover{background-color:rgba(255,255,255,0.8)}*/
+                   .btn_brs button{width:100%;height:100%;background-color:transparent;}
+/*                    #coca_brands>ul>.btn:hover i{transform:scale(2)}*/
+                    .btn_brs i{font-size:1.5em; color:#55565a; transition:all 0.5s;}
+                    .btn_brs span{width:0;height:0;display:block;overflow:hidden;}
+
+        .brs_box{width: 100%; height: 100%; overflow: hidden;}
+        /*양쪽만 보이고 싶게 할때는 여기에 히든주고 양옆도 보이고 싶지 않을 경우 banner에 히든을 준다*/
+            .brs_box>li{width:100%; height:100%; float: left;}
+                .coke{background-image: url(../img/coke_brands/coca_cola.png); }
+                .coke_zero{background-image: url(../img/coke_brands/coca_cola_zero.png); }
+                .cocopalm{background-image: url(../img/coke_brands/Cocopalm.png); }
+                .coke_light{background-image: url(../img/coke_brands/diet_coke.png); }
+                .dk{background-image: url(../img/coke_brands/dynamic_kin.png); }
+                .fanta{background-image: url(../img/coke_brands/fanta.png); }
+                .fuzetea{background-image: url(../img/coke_brands/fuse_tea.png); }
+                .georgia{background-image: url(../img/coke_brands/georgiacoffee.png); }
+                .kin{background-image: url(../img/coke_brands/Kincider.png); }
+                .metetea{background-image: url(../img/coke_brands/Matetea.png); }
+                .minute{background-image: url(../img/coke_brands/minute_maid.png); }
+                .power{background-image: url(../img/coke_brands/powerade.png); }
+                .pyungchang{background-image: url(../img/coke_brands/Pyungchangsoo.png); }
+                .schweppes{background-image: url(../img/coke_brands/Schweppes.png); }
+                .smart{background-image: url(../img/coke_brands/Smartwater.png); }
+                .soonsoo{background-image: url(../img/coke_brands/Soonsoo.png); }
+                .sprite{background-image: url(../img/coke_brands/sprite.png); }
+                .sunny{background-image: url(../img/coke_brands/Sunny10.png); }
+                .vitamin{background-image: url(../img/coke_brands/vitaminwater.png); }
+                .zico{background-image: url(../img/coke_brands/ZICO.png); }
+
+
+
+
+
+
+

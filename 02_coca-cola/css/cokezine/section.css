@@ -1,0 +1,22 @@
+/* section.css */
+
+section{width: 960px; height: 1206px;  padding-top:226px;}
+
+#article>h2{width: 960px; height: 42px; color: #f00; font-size: 2.5rem; font-weight: 500; margin-bottom: 80px; line-height: 36px; }
+
+
+
+/*------------------------------------------------------zinebox---------------------------------------------------------*/
+#zine_gnb{width: 960px; height: 16px; margin: 0 auto; float: left; margin-bottom: 80px;}
+#zine_gnb>li>a{width: 100%; height: 100%; float: left;}
+    .box_01{width: 88px; height: 13px; background-image: url(../../img/zine_gnb_01.png); float:left; margin: 0 75px 0 75px; background-position: center; background-repeat:S no-repeat;}
+    .box_02{width: 1px; height: 12px; background-image: url(../../img/sub_gnb_line.png); float:left; margin-top: 0.5px;}
+    .box_03{width: 135px; height: 13px; background-image: url(../../img/zine_gnb_02.png); float:left; margin: 0 52px 0 52px; background-position: center; background-repeat: no-repeat;}
+    .box_04{width: 1px; height: 12px; background-image: url(../../img/sub_gnb_line.png); float:left; margin-top: 0.5px;}
+    .box_05{width: 102px; height: 13px; background-image: url(../../img/zine_gnb_03.png); float:left; margin: 0 69px 0 69px; background-position: center; background-repeat: no-repeat;}
+    .box_06{width: 1px; height: 12px; background-image: url(../../img/sub_gnb_line.png); float:left; margin-top: 0.5px;}
+    .box_07{width: 96px; height: 13px; background-image: url(../../img/zine_gnb_04.png); float:left; margin: 0 72px 0 72px; background-position: center; background-repeat: no-repeat;}
+
+
+#zinebox{width: 586px; height: 841px; margin: 0 0 140px 187px; float: left;}
+    #img_index{width: 100%; height: 100%; background-size: 100%; background-image: url(../../img/cokezine/cz_main.png);}
