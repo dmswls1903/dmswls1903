@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Coca-cola</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="apple-touch-icon" href="./img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">      
+    <!--------------------------link불러오기-------------------------->
+    <link rel="stylesheet" href="./css/notice/coke.css">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">    
+    <!--------------------------script불러오기-------------------------->
+    <script src="js/jquery/jquery-1.12.2.min.js"></script>
+    <script src="js/jquery/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery/jquery-ui.min.js"></script>
+    <script src="./js/banner.js"></script>
+    <style></style>
+    <script>
+        $(function( ) { 
+            banner();
+            tabs();
+        });
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div id="gnb_sub">               
+                <ul>
+                    <li class="gnb_sub_01"><a href="#"><span>login</span></a></li>
+                    <li class="gnb_sub_02"><a href="#"><span>sitemap</span></a></li>
+                </ul>
+            </div><!--gnb_sub-->
+            <h1>
+                <a href="./index.html"><span>Coca-cola</span></a>
+            </h1>
+            <div id="gnb">
+                <ul>
+                    <li class="gnb_01"><a href="./brand.html"><span>BRAND</span></a><span class="gnb_bar"></span></li>
+                    <li class="gnb_02"><a href="./video.html"><span>VIDEO</span></a><span class="gnb_bar"></span></li>
+                    <li class="gnb_03"><a href="./cokezine.html"><span>COKE ZINE</span></a><span class="gnb_bar"></span></li>
+                    <li class="gnb_04"><a href="./event.html"><span>EVENT</span></a><span class="gnb_bar"></span></li>
+                    <li class="gnb_05"><a href="./notice.html" ><span>NOTICE</span></a><span class="gnb_bar"></span></li>
+                </ul>
+            </div><!--gnb-->            
+        </div><!--header-->
+     <section>
+          <article id="article">
+           <h2>NOTICE_</h2>
+           <div id="tb_sub">
+               <div id="order">
+                   <ul>
+                       <li id="newest"><a href="#">최신순</a></li>
+                       <li id="inquire"><a href="#">조회순</a></li>
+                   </ul> 
+               </div><!--order-->
+                <div id="nt_box">               
+                    <form action="" method="get">
+                        <fieldset>
+                           <legend></legend>
+                            <select name="list" id="list">
+                                <option>제목</option>
+                                <option>내용</option>
+                                <option>제목+내용</option>
+                            </select>
+                            <label for="nt_box"></label>
+                            <input type="search" name="sec_box" id="sec_box" valie="" placeholder="검색단어를 입력하세요" />
+                        </fieldset>
+                    </form>                
+                </div><!--search-->
+            </div><!--tb_sub-->
+            <!-- 리스트 게시판 시작-->            
+            <table summary="공지사항 리스트">
+               <thead>
+                   <tr>
+                       <th>제목</th>
+                       <th>날짜</th>
+                   </tr>
+               </thead>
+               <tbody>
+                   <tr><td scope="row"><a href="#">2월 출석체크 이벤트 당첨자 발표</a></td><td>2016.03.02</td></tr>
+                   <tr><td scope="row"><a href="#">출석체크 이벤트 종료 안내</a></td><td>2016.02.04</td></tr>
+                   <tr><td scope="row"><a href="#">서버이관에 따른 로그인 장애 안내</a></td><td>2016.01.26</td></tr>
+                   <tr><td scope="row"><a href="#">인증서 만료로 인한 로그인 장애 안내</a></td><td>2015.10.20</td></tr>
+                   <tr><td scope="row"><a href="#">개인정보 유효기간제 시행으로 인한 회원DB 삭제 완료</a></td><td>2015.09.21</td></tr>
+                   <tr><td scope="row"><a href="#">개인정보 유효기간제 시행으로 인한 회원DB 파기</a></td><td>2015.07.21</td></tr>
+                   <tr><td scope="row"><a href="#">e-mail 수신동의 및 중복확인 이벤트 당첨자 발표</a></td><td>2014.11.10</td></tr>
+                   <tr><td scope="row"><a href="#">사이트 운영 장애에 따른 안내 (9월 15일)</a></td><td>2014.09.16</td></tr>
+                   <tr><td scope="row"><a href="#">장기 미접속 회원 DB삭제</a></td><td>2014.08.01</td></tr>
+                   <tr><td scope="row"><a href="#">회원정보 도로명 주소 반영</a></td><td>2014.08.01</td></tr>
+                   <tr><td scope="row"><a href="#">장기 미접속 회원 및 개인정보 미기재 회원 DB삭제</a></td><td>2014.06.23</td></tr>
+                   <tr><td scope="row"><a href="#">사이트 운영 장애에 따른 안내 (1월 30일 ~ 2월 7일)</a></td><td>2014.02.10</td></tr>
+               </tbody>
+              </table>
+              <div class="pageBtn">
+                    <span class="pageBtnBox">
+                        <a href="#" class="pageBtn_fst">&lt;&lt;<span>처음으로</span></a>
+                        <a href="#" class="pageBtn_prev">&lt;<span>이전으로</span></a>
+                        <a href="#" class="on">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#" class="pageBtn_next">&gt;<span>다음으로</span></a>
+                        <a href="#" class="pageBtn_lst">&gt;&gt;<span>마지막으로</span></a>
+                    </span>
+                </div>
+           </article>
+        </section>
+        <div id="footer">
+           <ul>
+            <li class="foot_logo"><span>foot_logo</span></li>
+            <li class="copyright"><span>copyright</span></li>          
+            <div id="ft_box">               
+                <div id="ft_family">               
+                    <form action="" method="get">
+                        <fieldset>
+                           <legend></legend>
+                            <select name="list02" id="list02">
+                                <option>코카콜라</option>
+                                <option>코카콜라제로</option>
+                                <option>코코팜</option>
+                                <option>코카콜라라이트</option>
+                                <option>dk</option>
+                                <option>환타</option>
+                                <option>퓨즈티</option>
+                                <option>조지아</option>
+                                <option>킨사이다</option>
+                                <option>태양의 마테차</option>
+                                <option>미닛메이드</option>
+                                <option>파워에이드</option>
+                                <option>평창수</option>
+                                <option>슈웹스</option>
+                                <option>스마트워터</option>
+                                <option>순수</option>
+                                <option>스프라이트</option>
+                                <option>써니텐</option>
+                                <option>비타민워터</option>
+                                <option>지코</option>
+                            </select>
+                        </fieldset>
+                    </form>                
+                </div><!--ft_family-->
+            </div><!--ft_box-->
+            </ul>
+        </div><!--footer-->
+    </div><!--wrap-->
+</body>
+</html>
