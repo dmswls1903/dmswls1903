@@ -3,16 +3,12 @@ html {height: 100%;}
     .wrap {height: 100%; margin: 0 auto; overflow: hidden; }    
     .section {width: 100%; height: 100%;}
 
-.page1{background-color: #ada;}
-.page2{background-color: #faa;}
-.page3{background-color: #aaf;}
-.page4{background-color: #ae1;}
-.page5{background-color: #b7d;}
-.page6{ background-color: #ada;}
-.page7{ background-color: #faa;}
-.page8{ background-color: #aaf;}
-.page9{ background-color: #ae1;}
-.page10{ background-color: #b7d;}
+.page1{background-color: #fff; background-image: url(../../img/portfolio/intro_03.png); background-position: center; background-repeat: no-repeat; }
+.page2{background-color: #fff; background-image: url(../../img/portfolio/intro_04.png); background-position: center; background-repeat: no-repeat; }
+.page3{background-color: #fff; background-image: url(../../img/portfolio/intro_05.png); background-position: center; background-repeat: no-repeat; }
+.page4{background-color: #fff; background-image: url(../../img/portfolio/intro_06.png); background-position: center; background-repeat: no-repeat; }
+.page5{background-color: #fff; background-image: url(../../img/portfolio/intro_07.png); background-position: center; background-repeat: no-repeat; }
+.page6{background-color: #fff; background-image: url(../../img/portfolio/intro_08.png); background-position: center; background-repeat: no-repeat; }
 
 
 
