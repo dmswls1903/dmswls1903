@@ -1,0 +1,20 @@
+html {height: 100%;}
+    body {height: 100%; margin: 0; padding: 0; position: relative; }    
+    .wrap {height: 100%; margin: 0 auto; overflow: hidden; }    
+    .section {width: 100%; height: 100%;}
+
+.page1{background-color: #fff; background-image: url(../../img/portfolio/intro_09.png); background-position: center; background-repeat: no-repeat; }
+.page2{background-color: #fff;  background-image: url(../../img/portfolio/intro_10.png);  background-position: center; background-repeat: no-repeat; }
+.page3{background-color: #fff; background-image: url(../../img/portfolio/intro_11.png); background-position: center; background-repeat: no-repeat; }
+.page4{background-color: #fff;  background-image: url(../../img/portfolio/intro_12.png);  background-position: center; background-repeat: no-repeat; }
+.page5{background-color: #fff; background-image: url(../../img/portfolio/intro_13.png); background-position: center; background-repeat: no-repeat; }
+.page6{background-color: #fff;  background-image: url(../../img/portfolio/intro_14.png);  background-position: center; background-repeat: no-repeat; }
+
+
+/*---------------------------------------오른쪽 nav---------------------------------------*/
+.onepage-wrap{width: 100%; height: 100%; padding: 0; display: block; position: static; }
+    .onepage-pagination {margin: 0; padding: 0; top: 42%; right: 20px; z-index: 5; list-style: none; position: absolute;}
+        .onepage-pagination li {padding: 0; text-align: center; }
+            .onepage-pagination li a{padding: 10px; width: 4px; height: 4px; display: block; }
+                .onepage-pagination li a:before{width: 4px; height: 4px; background: rgba(0,0,0,0.85); background-color:#4a4a4a;content: ''; position: absolute;   border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px;}
+                    .onepage-pagination li a.active:before{width: 10px; height: 10px; margin-top: -4px; left: 8px; background: none; border: 1px solid #4a4a4a; }
