@@ -6,7 +6,7 @@ html {height: 100%;}
 .page1{background-color: #fff; background-image: url(../../img/portfolio/intro_01.png); background-position: center; background-repeat: no-repeat; }
 .page2{background-color: #fff;  background-image: url(../../img/portfolio/intro_02.png);  background-position: center; background-repeat: no-repeat;}
 .page3{background-color: #fff; }
-    .page3>a{width:188px; height:37px;  background-image: url(../../img/portfolio/home_go_gray.png);  background-position: center; background-repeat: no-repeat;}
+    .page3>a{width:188px; height:37px;  background-image: url(../../img/portfolio/home_go_gray.png);  background-position: center; background-repeat: no-repeat; display:block;}
 
 /*---------------------------------------오른쪽 nav---------------------------------------*/
 .onepage-wrap{width: 100%; height: 100%; padding: 0; display: block; position: static; }
